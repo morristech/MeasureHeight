@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgvPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/btn_default_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorMeasureResult"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="60dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvReference"
+            style="@style/textDefault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/STR_REFERENCE_HEIGHT"/>
+
+        <TextView
+            android:id="@+id/tvEntity"
+            style="@style/textDefault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/STR_ENTITY_HEIGHT"/>
+
+        <TextView
+            android:id="@+id/tvAngle"
+            style="@style/textDefault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/STR_ANGLE"/>
+
+        <TextView
+            android:id="@+id/tvResult"
+            style="@style/textDefault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/STR_RESULT"/>
+    </LinearLayout>
+
+    <com.zzy.smartweight.materialrangebar.RangeBar
+        android:id="@+id/rangebar1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="36dp"
+        android:paddingTop="10dp"
+        android:background="@color/transparent"
+        app:mrb_pinMaxFont="10sp"
+        app:mrb_pinRadius="0dp"
+        app:mrb_rangeBarPaddingBottom="1dp"
+        app:mrb_selectorBoundaryColor="@color/colorBtnStroke"
+        app:mrb_selectorBoundarySize="1dp"
+        app:mrb_connectingLineColor="@color/colorBlack"
+        app:mrb_connectingLineWeight="1dp"
+        app:mrb_selectorColor="@color/colorRuler"
+        app:mrb_barWeight="1dp"
+        app:mrb_rangeBarColor="@color/colorBlack"
+        app:mrb_pinPadding="6dp"
+        app:mrb_pinTextColor="#ACD123"
+        app:mrb_selectorSize="6dp"
+        app:mrb_barPoint="point_to_left"
+        app:mrb_tickColor ="@color/colorBlack"
+        app:mrb_tickEnd="100"
+        app:mrb_tickInterval="1"
+        app:mrb_tickStart="0"/>
+
+
+    <com.zzy.smartweight.materialrangebar.RangeBar
+        android:id="@+id/rangebar2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_marginStart="36dp"
+        android:background="@color/transparent"
+        android:paddingTop="10dp"
+        app:mrb_barPoint="point_to_right"
+        app:mrb_pinMaxFont="10sp"
+        app:mrb_pinRadius="0dp"
+        app:mrb_pinPadding="6dp"
+        app:mrb_pinTextColor="#ACD123"
+        app:mrb_rangeBarPaddingBottom="1dp"
+        app:mrb_selectorBoundaryColor="@color/colorRed"
+        app:mrb_connectingLineColor="@color/colorBlack"
+        app:mrb_connectingLineWeight="1dp"
+        app:mrb_selectorColor="@color/colorAccent"
+        app:mrb_rangeBarColor="@color/colorBlack"
+        app:mrb_selectorBoundarySize="1dp"
+        app:mrb_selectorSize="6dp"
+        app:mrb_barWeight="1dp"
+        app:mrb_tickColor ="@color/colorBlack"
+        app:mrb_tickEnd="100"
+        app:mrb_tickInterval="1"
+        app:mrb_tickStart="0" />
+
+
+
+</RelativeLayout>

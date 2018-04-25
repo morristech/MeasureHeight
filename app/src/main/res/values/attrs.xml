@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="HeightView">
+        <attr name="orientation" format="enum">
+            <enum name="HORIZONTAL" value="1" />
+            <enum name="VERTICAL" value="2" />
+        </attr>
+        <attr name="backgroundColor" format="color" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="highColor" format="color" />
+        <attr name="markerColor" format="color" />
+        <attr name="lineColor" format="color" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="shortLine" format="dimension" />
+        <attr name="longLine" format="dimension" />
+        <attr name="highlightLineWidth" format="dimension" />
+        <attr name="ratio" format="float" />
+        <attr name="markerSpace" format="dimension" />
+        <attr name="lines" format="integer"/>
+        <attr name="startLineValue" format="integer"/>
+        <attr name="markerSize" format="dimension"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="RangeBar">
+        <attr name="mrb_tickStart" format="float"/>
+        <attr name="mrb_tickEnd" format="float"/>
+        <attr name="mrb_tickInterval" format="float"/>
+        <attr name="mrb_tickHeight" format="dimension"/>
+        <attr name="mrb_tickColor" format="color"/>
+        <attr name="mrb_barWeight" format="dimension"/>
+        <attr name="mrb_rangeBarColor" format="reference|color"/>
+        <attr name="mrb_selectorSize" format="dimension"/>
+        <attr name="mrb_selectorBoundaryColor" format="reference|color"/>
+        <attr name="mrb_selectorBoundarySize" format="dimension"/>
+        <attr name="mrb_pinTextColor" format="reference|color"/>
+        <attr name="mrb_pinColor" format="reference|color"/>
+        <attr name="mrb_pinPadding" format="dimension"/>
+        <attr name="mrb_pinMinFont" format="dimension"/>
+        <attr name="mrb_pinMaxFont" format="dimension"/>
+        <attr name="mrb_rangeBarPaddingBottom" format="dimension"/>
+        <attr name="mrb_selectorColor" format="reference|color"/>
+        <attr name="mrb_rangeBar" format="boolean"/>
+        <attr name="mrb_temporaryPins" format="boolean"/>
+        <attr name="mrb_connectingLineWeight" format="dimension"/>
+        <attr name="mrb_connectingLineColor" format="reference|color"/>
+        <attr name="mrb_pinRadius" format="dimension"/>
+        <attr name="mrb_barPoint">
+            <enum name="point_to_top" value="0"/>
+            <enum name="point_to_left" value="1"/>
+            <enum name="point_to_right" value="2"/>
+            <enum name="point_to_bottom" value="3"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

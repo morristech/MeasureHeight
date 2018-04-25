@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zzy.smartweight.SlipLineLayout
+        android:id="@+id/sllAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@mipmap/icon_ad_default"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlAd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp">
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                ads:adSize="LARGE_BANNER"
+                ads:adUnitId="ca-app-pub-7554436602823340/2404187475"></com.google.android.gms.ads.AdView>
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                ads:adSize="LARGE_BANNER"
+                ads:adUnitId="ca-app-pub-7554436602823340/8061561036"></com.google.android.gms.ads.AdView>
+
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                ads:adSize="LARGE_BANNER"
+                ads:adUnitId="ca-app-pub-7554436602823340/4377822117"></com.google.android.gms.ads.AdView>
+        </RelativeLayout>
+
+        <com.zzy.smartweight.dot.ColorPointHintView
+            android:id="@+id/cphDot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal"></com.zzy.smartweight.dot.ColorPointHintView>
+
+    </com.zzy.smartweight.SlipLineLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvReference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_weight="1">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="@dimen/btn_space"
+        android:layout_marginStart="@dimen/btn_space"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnCamera"
+            style="@style/btnDefault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/cicon_camera"
+            android:text="@string/STR_CAMERA"
+            android:onClick="btnCamera_click"/>
+
+        <Button
+            android:id="@+id/btnGallery"
+            style="@style/btnDefault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@mipmap/cicon_gallery"
+            android:text="@string/STR_GALLERY" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

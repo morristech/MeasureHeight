@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SmartWeight</string>
+    <string name="STR_CAMERA">Camera</string>
+    <string name="STR_GALLERY">Gallery</string>
+    <string name="STR_CARD">Card</string>
+    <string name="STR_CASH">Cash</string>
+    <string name="STR_PHONE">Phone</string>
+    <string name="STR_RULER">Ruler</string>
+    <string name="STR_OK">Ok</string>
+    <string name="STR_APPLY">Apply</string>
+    <string name="STR_CANCEL">Cancel</string>
+    <string name="STR_RULER_TIPS_OTHER">Measure the size of reference by the ruler or other measure tools,and fill the results in the edit box.when you start measure，please take a photo with this reference.</string>
+    <string name="STR_RULER_TIPS_PHONE">you need two phone,one phone as reference,other take phone. please open our app in the reference. you can get the height. then fill the height in other phone which use to take photo</string>
+    <string name="STR_ENTER_HEIGHT">Please enter the height of the reference</string>
+    <string name="STR_ENTER_WIDTH">Please enter the width of the reference</string>
+    <string name="STR_HOW_TO">How to take photo</string>
+    <string name="STR_INPUT_EMPTY">please input the size of the reference</string>
+    <string name="STR_ABOVE_TIPS">Please find an object above 20mmx20mm as a reference </string>
+    <string name="STR_REFERENCE_NAME">Reference Name </string>
+    <string name="STR_INPUT_NAME">Please input the reference name </string>
+    <string name="STR_LOAD_BITMAP_ERROR">fail to load bitmap</string>
+    <string name="STR_REFERENCE_HEIGHT">Reference height:</string>
+    <string name="STR_ENTITY_HEIGHT">Entity height:</string>
+    <string name="STR_RESULT">Result:</string>
+    <string name="STR_ANGLE">x:%1$f y:%2$f z:%3$f</string>
+    <string name="STR_SELECT_REFERENCE">Please select a reference</string>
+</resources>

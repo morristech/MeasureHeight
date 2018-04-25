@@ -1,0 +1,154 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="horizontal">
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:background="@drawable/shape_ruler"
+		android:layout_margin="4dp">
+
+		<com.zzy.smartweight.ruler.HeightView
+			android:id="@+id/hvRuler"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:focusable="true"
+			android:focusableInTouchMode="true"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="10dp"
+			android:layout_marginStart="4dp"
+			android:layout_marginEnd="4dp"
+			android:paddingEnd="20dp"
+			android:paddingStart="10dp"
+			app:markerSpace="4dp"
+			app:textColor="@color/colorbDefaultText"
+			app:backgroundColor="@color/transparent"
+			app:highColor="@color/transparent"
+			app:markerColor="@color/transparent"
+			app:lineColor="@color/colorbDefaultText"/>
+	</LinearLayout>
+
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:padding="10dp">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="4dp"
+			android:text="@string/STR_INPUT_NAME"
+			android:textColor="@color/colorbDefaultText"
+			android:textSize="@dimen/font_size_middle" />
+
+		<EditText
+			android:id="@+id/etName"
+			style="@style/editTextDefault"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="@string/STR_REFERENCE_NAME"
+			android:imeOptions="actionNext" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="@color/colorRuler"></LinearLayout>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="4dp"
+			android:layout_marginTop="10dp"
+			android:text="@string/STR_ENTER_WIDTH"
+			android:textColor="@color/colorbDefaultText"
+			android:textSize="@dimen/font_size_middle" />
+
+		<EditText
+			android:id="@+id/etW"
+			style="@style/editTextDefault"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="mm"
+			android:imeOptions="actionNext"
+			android:inputType="number" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="@color/colorRuler"></LinearLayout>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="4dp"
+			android:layout_marginTop="10dp"
+			android:text="@string/STR_ENTER_WIDTH"
+			android:textColor="@color/colorbDefaultText"
+			android:textSize="@dimen/font_size_middle" />
+
+		<EditText
+			android:id="@+id/etH"
+			style="@style/editTextDefault"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="mm"
+			android:imeOptions="actionDone"
+			android:inputType="number" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="@color/colorRuler"></LinearLayout>
+
+
+		<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dp"
+			android:background="@color/colorSize">
+
+			<TextView
+				android:id="@+id/tvTips"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="6dp"
+				android:gravity="center|left"
+				android:text="@string/STR_RULER_TIPS_OTHER"
+				android:textColor="@color/colorBlack"
+				android:textSize="@dimen/font_size_normal"  />
+		</FrameLayout>
+
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="1dp"
+			android:layout_weight="1"></LinearLayout>
+
+
+		<Button
+			style="@style/btnDefault"
+			android:layout_marginBottom="10dp"
+			android:layout_marginTop="10dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/STR_HOW_TO" />
+
+		<Button
+			style="@style/btnDefault"
+			android:layout_marginBottom="10dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/STR_APPLY"
+			android:onClick="apply_click"/>
+
+
+
+
+	</LinearLayout>
+
+</LinearLayout>

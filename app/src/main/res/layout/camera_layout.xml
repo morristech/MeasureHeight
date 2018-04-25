@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lyCameraBack"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.zzy.smartweight.camera.CostomCamera
+        android:id="@+id/scCamera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tvItem"
+        style="@style/textDefault"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorCamera"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/colorbText" />
+
+    <LinearLayout
+        android:id="@+id/llBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvItem"
+        android:layout_marginBottom="10dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgvCameraFlash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/pocket_camera_flash_off" />
+
+        <ImageView
+            android:id="@+id/imgvCameraTake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/pocket_take_pic" />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

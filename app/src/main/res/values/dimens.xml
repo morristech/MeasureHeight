@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_space">40dp</dimen>
+    <dimen name="btn_radius">20dp</dimen>
+    <dimen name="btn_padding">10dp</dimen>
+    <dimen name="font_size_normal">16dp</dimen>
+    <dimen name="font_size_middle">14dp</dimen>
+    <dimen name="font_size_small">12dp</dimen>
+    <dimen name="tools_bar_height">48dp</dimen>
+</resources>

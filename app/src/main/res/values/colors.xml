@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FCCD3C</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorActivityBackground">#ffffff</color>
+
+    <color name="colorbBtnBg">#FCCD3C</color>
+    <color name="colorbBtnText">#000000</color>
+    <color name="colorBtnStroke">#FFAA00</color>
+    <color name="transparent">#00ffffff</color>
+
+    <color name="colorbDefaultText">#000000</color>
+    <color name="colorbText">#ffffff</color>
+
+    <color name="colorDotSelect">#FCCD3C</color>
+    <color name="colorDotunSelect">#DADADA</color>
+
+    <color name="colorAdPageBg">#dadada</color>
+
+    <color name="colorSize">#c8c8c8</color>
+    <color name="colorRuler">#FCCD3C</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorEditText">#000000</color>
+    <color name="colorEditHint">#666666</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorMeasureResult">#80000000</color>
+    <color name="colorCamera">#80000000</color>
+</resources>
